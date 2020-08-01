@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sricomputers.tic.Player2"
+    android:background="@drawable/back2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW PLAYER"
+        android:id="@+id/button13"
+        android:layout_marginBottom="88dp"
+        android:layout_gravity="center"
+        android:layout_above="@+id/button14"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:textColor="#802121"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="OK"
+        android:id="@+id/button14"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/abc_btn_radio_material" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:textSize="20dp"
+        android:textColor="#802121"
+        android:hint="Handler Name"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="OR"
+        android:id="@+id/textView6"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0b0a0a"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as Player 2"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textIsSelectable="false"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText12"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        android:background="#FFFFFF"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColor="#802121" />
+
+</RelativeLayout>

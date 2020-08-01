@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="game_name" />
+    <string name="default_player_turn_text" />
+    <string name="restart_game_button_text" />
+    <string name="restart_match_button_text" />
+    <string name="ask_numofgames_text" />
+    <string name="number_of_games_hint" />
+    <string name="playernames_submit_button" />
+
+
+</resources>
